@@ -8,7 +8,7 @@ import { Parallax } from "react-parallax";
 import { Container } from "react-bootstrap";
 import "./App.css";
 import Skills from "./pages/Skills";
-import Experience from "./pages/Experienxe";
+import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";

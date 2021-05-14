@@ -167,7 +167,7 @@ const Projects = () => {
                       <Card.Body>
                         <strong>Description:</strong> This app calculates Tip
                         for the amount entered and percentage of tip to be
-                        given. It uses MERN stack build to acomplish the same.
+                        given. It uses MEAN stack build to accomplish the same.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -444,7 +444,7 @@ const Projects = () => {
                         </ul>
                         <hr />
                         <em>
-                          <strong>SignUp/ Signin:</strong>
+                          <strong>SignUp/ Sign in:</strong>
                           <br />
                           <br />
                           You can <strong>register</strong> as new user or{" "}
@@ -738,10 +738,8 @@ const Projects = () => {
                           <li>Send emails</li>
                           <li>View my projects</li>
                           <li>Write a blog</li>
-                          <li>
-                            Hosted using Digital ocean under www.akjfun.com
-                          </li>
-                          <li>Fully funtional Administration panel</li>
+                          <li>Hosted using Digital ocean under www.fun.com</li>
+                          <li>Fully functional Administration panel</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
