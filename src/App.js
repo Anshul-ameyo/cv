@@ -9,6 +9,9 @@ import { Container } from "react-bootstrap";
 import "./App.css";
 import Skills from "./pages/Skills";
 import Experience from "./pages/Experienxe";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -26,6 +29,7 @@ const App = () => {
           <div>
             <Container className="container-box rounded bg-dark">
               <Fade duration={500}>
+                <hr />
                 <About />
               </Fade>
             </Container>
@@ -33,10 +37,24 @@ const App = () => {
         </Parallax>
       </div>
       <Container>
+        <hr />
         <Skills />
       </Container>
       <Container>
+        <hr />
         <Experience></Experience>
+      </Container>
+      <Container className="container-box rounded">
+        <hr />
+        <Projects></Projects>
+      </Container>
+      <Container className="container-box rounded">
+        <hr />
+        <Contact></Contact>
+      </Container>
+      <Container className="container-box rounded">
+        <hr />
+        <Footer />
       </Container>
     </>
   );
