@@ -11,7 +11,7 @@ const About = () => {
         <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
         <Container>
           <Row className="pt-3 pb-5 align-items-center">
-            <Col xs={12} md={6}>
+            <Col xs={12} md={4}>
               <Row className="justify-content-center mb-2 mr-2 ">
                 <Image
                   className="profile justify-content-end"
@@ -22,16 +22,17 @@ const About = () => {
                 ></Image>
               </Row>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={8}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Anshul Rawat</strong>
                 <br />
-                Creative UI Developer with 2 years facilitating and supporting
-                human interactions with complex systems and software. Talented
-                at planning and creating graphics for websites using GWTP (MVC)
-                methodology in ECLIPSE and seasoned expert in languages such as
-                HTML5/XML, CSS3 and JAVA as well as scripting language
-                JavaScript.
+                Creative UI Developer with 2+ years experience facilitating and
+                supporting human interactions with complex systems and software.
+                <br />
+                Talented at planning and creating graphics for websites using
+                GWTP (MVC) methodology in ECLIPSE and seasoned expert in
+                languages such as HTML5/XML, CSS3 and JAVA as well as scripting
+                language JavaScript.
                 <br />
                 In 2018, I have completed my Engineering with specialization in
                 'Computer Science and Engineering'.
@@ -45,7 +46,9 @@ const About = () => {
                 products.
                 <br />
               </Row>
-              <Row className="d-flex justify-content-center flex-wrap">
+            </Col>
+            <Col xs={12}>
+              <Row className="d-flex justify-content-center flex-wrap mt-5">
                 <div>
                   <a href="#contact">
                     <Button className="m-2" variant="outline-primary">
@@ -70,7 +73,7 @@ const About = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button className="m-2" variant="outline-dark">
+                    <Button className="m-2" variant="outline-light">
                       GitHub
                     </Button>
                   </a>

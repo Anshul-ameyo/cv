@@ -7,6 +7,7 @@ import Fade from "react-reveal/Fade";
 import { Parallax } from "react-parallax";
 import { Container } from "react-bootstrap";
 import "./App.css";
+import Skills from "./pages/Skills";
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
           strength={-200}
         >
           <div>
-            <Container className="container-box rounded">
+            <Container className="container-box rounded bg-dark">
               <Fade duration={500}>
                 <About />
               </Fade>
@@ -30,6 +31,9 @@ const App = () => {
           </div>
         </Parallax>
       </div>
+      <Container>
+        <Skills />
+      </Container>
     </>
   );
 };
