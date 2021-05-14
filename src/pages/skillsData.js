@@ -12,12 +12,9 @@ import L_NODE_JS from "../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../assets/img/skills/express.svg";
 import L_DJANGO from "../assets/img/skills/django.svg";
 import L_FLASK from "../assets/img/skills/flask.svg";
-import L_MONGODB from "../assets/img/skills/mongodb.svg";
 import L_POSTGRESQL from "../assets/img/skills/postgresql.svg";
-import L_MSSQL from "../assets/img/skills/mssql.svg";
+import L_MYSQL from "../assets/img/skills/mysql.svg";
 import L_GIT from "../assets/img/skills/git-icon.svg";
-import L_HEROKU from "../assets/img/skills/heroku.svg";
-import L_DIGITAL_OCEAN from "../assets/img/skills/digital-ocean.svg";
 import L_GITHUB_PAGES from "../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../assets/img/skills/typescript.svg";
@@ -101,38 +98,8 @@ export const skills = {
       imgSrc: L_NODE_JS,
       skillName: "Node.js",
     },
-    {
-      link: "https://expressjs.com/",
-      imgAltText: "Express",
-      imgSrc: L_EXPRESS,
-      skillName: "Express",
-    },
-    {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
-    {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
-    },
   ],
   hostingPlatforms: [
-    {
-      link: "https://www.heroku.com/",
-      imgAltText: "Heroku",
-      imgSrc: L_HEROKU,
-      skillName: "Heroku",
-    },
-    {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
-    },
     {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
@@ -153,18 +120,6 @@ export const skills = {
       imgSrc: L_TYPESCRIPT,
       skillName: "TypeScript",
     },
-    {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
-    },
-    {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
-    },
   ],
   databases: [
     {
@@ -174,16 +129,10 @@ export const skills = {
       skillName: "PostgreSQL",
     },
     {
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
-    },
-    {
-      link: "https://www.mongodb.com/",
-      imgAltText: "MongoDB",
-      imgSrc: L_MONGODB,
-      skillName: "MongoDB",
+      link: "https://www.mysql.com/",
+      imgAltText: "MySQL",
+      imgSrc: L_MYSQL,
+      skillName: "MySQL",
     },
   ],
   versionControl: [

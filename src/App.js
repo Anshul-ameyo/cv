@@ -8,6 +8,7 @@ import { Parallax } from "react-parallax";
 import { Container } from "react-bootstrap";
 import "./App.css";
 import Skills from "./pages/Skills";
+import Experience from "./pages/Experienxe";
 
 const App = () => {
   return (
@@ -18,9 +19,9 @@ const App = () => {
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
+          strength={-200}
           bgImage={require("./assets/img/parallex/background_reverse.webp")}
           bgImageAlt=""
-          strength={-200}
         >
           <div>
             <Container className="container-box rounded bg-dark">
@@ -33,6 +34,9 @@ const App = () => {
       </div>
       <Container>
         <Skills />
+      </Container>
+      <Container>
+        <Experience></Experience>
       </Container>
     </>
   );
