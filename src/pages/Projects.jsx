@@ -2,7 +2,7 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
-import L_ReactToDoList from "../assets/img/projects/React_ToDo_List.webp";
+import COVIDTRACKER from "../assets/img/projects/Covid_19_img1.png";
 
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -26,8 +26,8 @@ const Projects = () => {
           <ImageEvent
             className="text-center"
             text="Covid-19 Tracker"
-            src={L_ReactToDoList}
-            alt="React ToDo App"
+            src={COVIDTRACKER}
+            alt="Covid-19 Tracker"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -111,13 +111,13 @@ const Projects = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
+                  href=" https://anshul-ameyo.github.io/covid-tracker/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/akjha96/Todo-List-React"
+                  href="https://github.com/Anshul-ameyo/covid-tracker"
                   target="_blank"
                 >
                   SOURCE CODE

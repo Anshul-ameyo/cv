@@ -35,27 +35,30 @@ const Experience = () => {
                       Frontend Developer
                     </strong>
                     <br />
-                    <strong>Technology:</strong> React JS, JAVA, XML, CSS
+                    <strong>Technology:</strong> HTML, XML, CSS, SASS, JAVA,
+                    GWTP, REACT, JAVASCRIPT
                     <br />
                     <strong>Duration:</strong> MARCH 2019 - Present
                     <br />
-                    <strong> Description </strong>
+                    <strong> Company Description : Product Based</strong>
                     <ul className="text-left">
                       <li>
+                        <strong>About</strong>
+                        <br />
+                        Ameyo being a platform build to solve all the customer
+                        experience problems offers a robust Contact Center
+                        Solution. The solution aims to enable all organizations
+                        – SMEs or Enterprises in managing their customer
+                        interactions along with getting rid of the siloed
+                        operations and workforce management. Some of our
+                        industry-winning products are Fusion CX | Omni | Voice |
+                        Collect | Emerge | Engage
+                      </li>
+                      <li>
                         <strong>Developed &amp; enhanced</strong> multiple
-                        features with customizability option across web
-                        application.
+                        features with custom option across web application.
                       </li>
-                      <li>
-                        <strong>Developed</strong> automation system to create
-                        SQL bulk query scripts that increased efficiency by 80%
-                        and decreased working hours from 4 hours to 30 mins per
-                        task.
-                      </li>
-                      <li>
-                        <strong>Provided</strong> application maintenance while
-                        working as `Production Support`.
-                      </li>
+
                       <li>
                         <strong>Performed</strong> CRUD operations on multiple
                         databases to load/ remove data according to the business
