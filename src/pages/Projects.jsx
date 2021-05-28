@@ -157,6 +157,7 @@ const Projects = () => {
                         <li>Add contacts</li>
                         <li>Delete Contacts</li>
                         <li>Update Contacts</li>
+                        <li>Search Contacts</li>
                       </ul>
                       <hr />
                       <strong>Tech used:</strong>
@@ -201,7 +202,7 @@ const Projects = () => {
                               alt="Material-UI"
                               rounded
                               className="image-style1 m-1"
-                            ></Image>{" "}
+                            ></Image>
                             Sematic-UI
                           </span>
                         </li>
